@@ -5,7 +5,8 @@ class POINT(Structure):
 
 def queryMousePosition():
 	pt = POINT()
-	windll.user32.getCursorPos(byref(pt))
+	windll.user32.GetCursorPos(byref(pt))
 	return {"x": pt.x, "y":pt.y}
 		
 pos = queryMousePosition()	
+
