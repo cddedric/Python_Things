@@ -1,6 +1,6 @@
 import unittest
 
-from my_isogram_test import is_isogram
+from isogram import is_isogram
 
 
 # test cases adapted from `x-common//canonical-data.json` @ version: 1.1.0
